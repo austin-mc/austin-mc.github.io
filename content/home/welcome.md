@@ -1,2 +1,0 @@
-#Welcome to my site👋
-This website is currently under construction. Please check back soon for more information. In the meantime, check out my [Github](https://github.com/austin-mc) and [LinkedIn](https://www.linkedin.com/in/austin-christiansen/).
