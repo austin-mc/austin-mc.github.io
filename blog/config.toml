@@ -1,0 +1,17 @@
+baseURL = 'https://austinchristiansen.com/'
+languageCode = 'en-us'
+title = 'Austin Christiansen'
+theme = 'digitalgarden'
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = 'Articles'
+  url = '/articles'
+  weight = 2
+[[menu.main]]
+  name = 'Portfolio'
+  url = '/portfolio'
+  weight = 2
