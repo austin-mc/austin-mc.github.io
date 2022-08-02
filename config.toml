@@ -2,6 +2,7 @@ baseURL = 'https://austinchristiansen.com'
 languageCode = 'en-us'
 title = 'Austin Christiansen'
 theme = 'digitalgarden'
+
 [menu]
 [[menu.main]]
   name = 'Home'
