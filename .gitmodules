@@ -1,6 +1,0 @@
-[submodule "blog/themes/digitalgarden"]
-	path = blog/themes/digitalgarden
-	url = https://github.com/apvarun/digital-garden-hugo-theme.git
-[submodule "themes/LoveIt"]
-	path = themes/LoveIt
-	url = https://github.com/dillonzq/LoveIt.git
