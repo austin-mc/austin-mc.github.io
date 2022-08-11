@@ -34,7 +34,7 @@ enableRobotsTXT = true
     [params.header.title]
       logo = ''
       name = '> Austin Christiansen'
-      typeIt = true
+      typeIt = false
       
   [params.footer]
     hugo = false
@@ -46,6 +46,7 @@ enableRobotsTXT = true
     [params.home.profile]
       avatarURL = '/images/avatar.jpg'
       subtitle = 'Welcome to my personal blog!'
+      typeit = false
     [params.home.posts]
       enable = true
       paginate = 1
@@ -73,8 +74,8 @@ enableRobotsTXT = true
       HackerNews = true
     [params.page.code]
       copy = true
-      maxShownLines = 50
-    
+      maxShownLines = 60
+
   [params.social]
     LinkedIn = 'austin-christiansen'
     GitHub = 'austin-mc'
