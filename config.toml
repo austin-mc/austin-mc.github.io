@@ -21,7 +21,6 @@ enableRobotsTXT = true
     name = 'Resume'
     url = '/resume'
     weight = 3
-    
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
