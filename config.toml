@@ -45,7 +45,7 @@ enableRobotsTXT = true
   [params.home]
     [params.home.profile]
       avatarURL = '/images/avatar.jpg'
-      subtitle = 'Welcome to my personal blog!'
+      subtitle = 'Visit my GitHub, LinkedIn, and Twitter:'
       typeit = false
     [params.home.posts]
       enable = true
