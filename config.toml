@@ -63,7 +63,7 @@ enableRobotsTXT = true
   [params.page]
     [params.page.toc]
       enable = true
-      keepStatic = true
+      keepStatic = false
       auto = true
     [params.page.share]
       enable = true
