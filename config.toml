@@ -1,30 +1,102 @@
 baseURL = 'https://austinchristiansen.com'
 languageCode = 'en-us'
 title = 'Austin Christiansen'
-theme = 'digitalgarden'
+theme = 'LoveIt'
+enableRobotsTXT = true
+
+[author]
+  name = 'Austin Christiansen'
+  email = 'code@austinchristiansen.com'
 
 [menu]
-[[menu.main]]
-  name = 'Home'
-  url = '/'
-  weight = 1
-[[menu.main]]
-  name = 'Articles'
-  url = '/articles'
-  weight = 2
-[[menu.main]]
-  name = 'Portfolio'
-  url = '/portfolio'
-  weight = 3
-[[menu.social]]
-  name = 'GitHub'
-  url = 'https://github.com/austin-mc'
-  weight = 1
-[[menu.social]]
-  name = 'LinkedIn'
-  url = 'https://linkedin.com/in/austin-christiansen'
-  weight = 2
-[[menu.social]]
-  name = 'Twitter'
-  url = 'https://twitter.com/amchristiansen'
-  weight = 3
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Posts'
+    url = '/posts'
+    weight = 2
+  [[menu.main]]
+    name = 'Resume'
+    url = '/resume'
+    weight = 3
+    
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+  
+[params]
+  defaultTheme = 'auto'
+  [params.header]
+    desktopMode = 'auto'
+    mobileMode = 'auto'
+    [params.header.title]
+      logo = ''
+      name = '> Austin Christiansen'
+      typeIt = true
+      
+  [params.footer]
+    hugo = false
+    
+  [params.page.math]
+      enable = false
+    
+  [params.home]
+    [params.home.profile]
+      avatarURL = '/images/avatar.jpg'
+      subtitle = 'Welcome to my personal blog!'
+    [params.home.posts]
+      enable = true
+      paginate = 1
+    
+  [params.search]
+    enable = true
+    type = 'lunr'
+    contentLength = 4000
+    placeholder = ''
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = 'em'
+    absoluteURL = false
+  [params.page]
+    [params.page.toc]
+      enable = true
+      keepStatic = true
+      auto = true
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      LinkedIn = true
+      Reddit = true
+      HackerNews = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 50
+    
+  [params.social]
+    LinkedIn = 'austin-christiansen'
+    GitHub = 'austin-mc'
+    Twitter = 'amchristiansen'
+    Email = 'code@austinchristiansen.com'
+    
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
