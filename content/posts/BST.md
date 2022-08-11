@@ -4,13 +4,13 @@ date: 2022-08-10
 draft: false
 author: "Austin Christiansen"
 authorLink: "https://austinchristiansen.com"
-description: "Creating a templated Binary Search Tree in C++"
+description: ""
 ---
 
-
-## Creating a header-only templated Binary Search Tree in C++.
-
 <!--more-->
+
+### Creating a header-only templated Binary Search Tree in C++.
+
 
 In this post, we'll explore how to make a Binary Search Tree that is compatible with a variety of data types in C++.
 
