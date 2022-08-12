@@ -1,7 +1,6 @@
 baseURL = 'https://austinchristiansen.com'
 languageCode = 'en-us'
 title = 'Austin Christiansen'
-description = "Austin Christiansen's Personal Blog and Portfolio"
 theme = 'LoveIt'
 enableRobotsTXT = true
 
@@ -28,6 +27,8 @@ enableRobotsTXT = true
   
 [params]
   defaultTheme = 'auto'
+  title = 'Austin Christiansen'
+  description = "Austin Christiansen's Personal Blog and Portfolio"
   [params.header]
     desktopMode = 'auto'
     mobileMode = 'auto'
