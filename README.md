@@ -7,7 +7,7 @@ This repository contains the code for my personal website.
 
 ## Local Development
 1. Install Hugo with `brew install hugo` or your preferred package manager
-2. `git submodule update` - Pulls in forked theme as submodule for Hugo
+2. `git submodule update --init --recursive` - Pulls in forked theme as submodule for Hugo
 3. `npm i` - Install dependencies
 4. `npm run dev` - Starts development server on a random port
 
