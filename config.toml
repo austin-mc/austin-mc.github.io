@@ -1,6 +1,7 @@
 baseURL = 'https://austinchristiansen.com'
 languageCode = 'en-us'
 title = 'Austin Christiansen'
+description = "Austin Christiansen's Personal Blog and Portfolio"
 theme = 'LoveIt'
 enableRobotsTXT = true
 

@@ -9,10 +9,13 @@ This repository contains the code for my personal website.
 1. Install Hugo with `brew install hugo` or your preferred package manager
 2. `git submodule update --init --recursive` - Pulls in forked theme as submodule for Hugo
 3. `npm i` - Install dependencies
-4. `npm run dev` - Starts development server on a random port
+4. `npm run dev` - Starts development server on a random por
 
 ## Production
 `npm run build`
+
+## Updating Submodules
+`git submodule update --remote`
 
 ## Deployments
 Deployments are automated and deployed to Github pages using Github actions when commits are merged into master.
