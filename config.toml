@@ -50,7 +50,7 @@ enableRobotsTXT = true
       typeit = false
     [params.home.posts]
       enable = true
-      paginate = 1
+      paginate = 3
     
   [params.search]
     enable = true
