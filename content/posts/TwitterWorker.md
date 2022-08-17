@@ -165,4 +165,6 @@ async function triggerPost(event) {
 
 Wrangler makes deploying Workers extremely easy. All that needs to be done is to run `wrangler publish` and Worker will be live. Once published, the Cron may take up to 30 minutes to take effect.
 
+Heres the final result:
+
 ![Final Result](/static/images/workers.png)
