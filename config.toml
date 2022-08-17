@@ -37,6 +37,9 @@ enableRobotsTXT = true
       name = '> Austin Christiansen'
       typeIt = false
       
+  [params.app]
+    title = 'Austin Christiansen'
+      
   [params.footer]
     hugo = false
     
