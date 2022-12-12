@@ -49,7 +49,7 @@ enableRobotsTXT = true
   [params.home]
     [params.home.profile]
       avatarURL = '/images/avatar.jpg'
-      subtitle = 'Visit my GitHub, LinkedIn, and Twitter:'
+      subtitle = 'Visit my GitHub and LinkedIn:'
       typeit = false
     [params.home.posts]
       enable = true
@@ -83,7 +83,6 @@ enableRobotsTXT = true
   [params.social]
     LinkedIn = 'austin-christiansen'
     GitHub = 'austin-mc'
-    Twitter = 'amchristiansen'
     Email = 'code@austinchristiansen.com'
     
 [markup]
